@@ -51,7 +51,7 @@ public class TutorialAutonomous extends LinearOpMode {
             rightFrontMotor.setPower(1);
             Thread.sleep(500);
 
-
+/////////////////////////////////////////////////////////
         leftRearMotor.setPower(1);
         leftFrontMotor.setPower(1);
         Thread.sleep(500);
