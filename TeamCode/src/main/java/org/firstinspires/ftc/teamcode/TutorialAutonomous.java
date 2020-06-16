@@ -24,8 +24,7 @@ public class TutorialAutonomous extends LinearOpMode {
     // operational constants
     double joyScale = 0.5;
     double motorMax = 1;
-        //commited
-            //testpls work e
+
     @Override
     public void runOpMode() throws InterruptedException {
 
@@ -44,19 +43,18 @@ public class TutorialAutonomous extends LinearOpMode {
         leftRearMotor.setDirection(DcMotor.Direction.FORWARD);
         rightRearMotor.setDirection(DcMotor.Direction.REVERSE);
 
-
-
-
         waitForStart();
-
-
-
 
             leftRearMotor.setPower(1);
             rightRearMotor.setPower(1);
             leftFrontMotor.setPower(1);
             rightFrontMotor.setPower(1);
             Thread.sleep(500);
+
+
+        leftRearMotor.setPower(1);
+        leftFrontMotor.setPower(1);
+        Thread.sleep(500);
 
 
         }
