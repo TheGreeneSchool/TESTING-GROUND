@@ -24,7 +24,7 @@ public class TutorialAutonomous extends LinearOpMode {
     // operational constants
     double joyScale = 0.5;
     double motorMax = 1;
-        //commit
+        //commited
     @Override
     public void runOpMode() throws InterruptedException {
 
