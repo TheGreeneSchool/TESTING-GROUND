@@ -9,7 +9,7 @@ import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
 
-@Autonomous(name="Basic: Linear OpMode", group="Linear Opmode")
+@Autonomous
 
 public class AutonMode extends LinearOpMode {
 
