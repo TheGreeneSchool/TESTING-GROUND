@@ -9,9 +9,9 @@ import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 
 
-@TeleOp// @Autonomous(...) is the other common choice
+@com.qualcomm.robotcore.eventloop.opmode.TeleOp// @Autonomous(...) is the other common choice
 // @Disabled
-public class BasicOpMode_Linear extends LinearOpMode {
+public class Controlled extends LinearOpMode {
 
         /* Declare OpMode members. */
         private ElapsedTime runtime = new ElapsedTime();

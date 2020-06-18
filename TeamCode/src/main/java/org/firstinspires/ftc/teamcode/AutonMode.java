@@ -11,7 +11,7 @@ import com.qualcomm.robotcore.util.Range;
 
 @Autonomous(name="Basic: Linear OpMode", group="Linear Opmode")
 
-public class TutorialAutonomous extends LinearOpMode {
+public class AutonMode extends LinearOpMode {
 
     DcMotor leftFrontMotor = null;
     DcMotor rightFrontMotor = null;
