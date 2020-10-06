@@ -1,4 +1,4 @@
-///test123
+
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
@@ -8,10 +8,10 @@ import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.ElapsedTime;
 import com.qualcomm.robotcore.util.Range;
-//
-@Autonomous
 
-public class AutonMode extends LinearOpMode {
+@Autonomous(name="Basic: Linear OpMode", group="Linear Opmode")
+
+public class TutorialAutonomous extends LinearOpMode {
 
     DcMotor leftFrontMotor = null;
     DcMotor rightFrontMotor = null;
@@ -51,7 +51,7 @@ public class AutonMode extends LinearOpMode {
             rightFrontMotor.setPower(1);
             Thread.sleep(500);
 
-/////////////////////////////////////////////////////////
+
         leftRearMotor.setPower(1);
         leftFrontMotor.setPower(1);
         Thread.sleep(500);
